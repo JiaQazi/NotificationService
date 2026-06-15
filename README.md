@@ -5,6 +5,7 @@ NotificationService is a .NET 8 microservice for reliably delivering notificatio
 
 ## Architecture
 
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                        API Layer                            │
 │          NotificationService.API (ASP.NET Core)             │
@@ -47,6 +48,7 @@ Flow:
                               NotificationConsumerService
                                                     ▼
                                   Update Notification → Delivered
+```
 
 
 ## Key Patterns
