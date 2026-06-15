@@ -1,0 +1,10 @@
+# User-specific settings
+appsettings.Development.json
+*.user
+
+# Build output
+bin/
+obj/
+
+# IDE
+.vs/
