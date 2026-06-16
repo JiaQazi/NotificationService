@@ -3,6 +3,8 @@
 NotificationService is a .NET 8 microservice for reliably delivering notifications (Email, SMS, Push) to recipients. It uses the Transactional Outbox pattern to guarantee at-least-once message delivery via RabbitMQ, even in the face of transient failures. The service exposes a REST API to create and query notifications, processes the outbox on a background timer, and consumes delivered messages from RabbitMQ to update notification status — all built on a Clean Architecture foundation with no cross-layer leakage.
 
 
+
+
 ## Architecture
 
 ```
